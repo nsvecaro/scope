@@ -1,6 +1,6 @@
 <template>
     <button class="custom-button" @click="$emit('click')">
-      <slot />
+      Javi nam se!
     </button>
   </template>
   
@@ -14,13 +14,16 @@
     font-weight: 400;
     cursor: pointer;
     transition: all 0.3s ease;
-
+    width: 150px;
     align-items: center;
     line-height: 1;
   }
 
-  .custom.button:hover {
-    background-color: #b222222a !important; 
+  .custom-button:hover {
+    background-color: #b2222298;
   }
+
+
+
 
   </style>
