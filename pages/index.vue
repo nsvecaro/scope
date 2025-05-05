@@ -1,10 +1,10 @@
 <template>
 
     <div class="hero">
-
-        <div class="text">
+            <div class="text">
             <h1>Vaš oglas</h1>
             <h1>u pravo vrijeme.</h1>
+        
             <h2 class="subtext">Na ulici ili online - pomažemo Vam biti viđeni i zapamćeni</h2>
         </div>
         <Button>Saznaj više!</Button>
@@ -12,12 +12,18 @@
     </div>
     <div class="w-card">
         <div class="why-us-content">
+        <MotionUp>
             <h2 class="sec-title">ZAŠTO ODABRATI SCOPE?</h2>
+        </MotionUp>
+        <MotionUp>
             <h3 class="main-title">Jednostavan početak,<br>briljantni rezultati</h3>
+        </MotionUp>
+        <MotionUp>
             <h2 class="paragraph">Scope je digitalna marketing agencija koja se specijalizira za<br>web razvoj,
                 SEO, društvene mreže i ostale digitalne strategije,<br>pomažući trvrtkama da
                 unaprijede svoj online poslovni uspjeh.</h2>
-
+        </MotionUp>
+        <MotionUp>
             <div class="why-us-benefits">
                 <div class="benefit">
                     <h3>Brza i jednostavna suradnja</h3>
@@ -36,25 +42,37 @@
                     <p>Svaku kampanju gradimo na analizi i realnim podacima, ne na nagađanju. Znamo što funkcionira - i
                         zašto.</p>
                 </div>
-            </div>
+            </div></MotionUp>
         </div>
     </div>
 
 
     <div class="services">
         <div class="services-content">
+            <MotionUp>
             <h2 class="sec-title">NAŠE USLUGE</h2>
+        </MotionUp>
+        <MotionUp>
             <h3 class="main-title">Web. Marketing. Billboards.<br>Jedan tok.</h3>
+        </MotionUp>
             <div class="cards">
+                <MotionUp>
                 <Card number="01" title="Izrada web stranica"
                     description="Brze, funkcionalne i dizajnerski čiste web stranice koje prodaju." />
+                </MotionUp>
+                <MotionUp>
                 <Card number="02" title="Digitalni marketing"
                     description="Kampanje koje pogađaju pravu publiku. Bez suvišnih klikova." />
+                </MotionUp>
+                <MotionUp>
                 <Card number="03" title="Optimizacija za tražilice"
                     description="Budi pronađen kad te trebaju. I kad ne znaju da te trebaju." />
+                </MotionUp>
+                <MotionUp>
                 <Card number="04" title="Oglašavanje billboardom"
                     description="Tvoja priča na ulicama. Veliko platno, prava publika, pravi trenutak." />
-            </div>
+            </MotionUp>
+        </div>
 
         </div>
 
@@ -62,66 +80,80 @@
 
     <div class="cta">
         <div class="cta-title">
+            <MotionUp>
             <h1 class="main-title">Sve povezano. Sve u pokretu.<br>Sve za tvoj rast.</h1>
-        </div>
-        <Button>Javi nam se!</Button>
+        </MotionUp>
+    </div>
+    <MotionUp><Button>Javi nam se!</Button></MotionUp>
 
 
     </div>
     <div class="process">
+        <MotionUp>
         <h2 class="sec-title">PROCES RADA</h2>
+    </MotionUp>
+    <MotionUp>
         <h3 class="main-title">Od ideje do rezultata.</h3>
+    </MotionUp>
+    
         <div class="timeline">
             <div class="timeline-line"></div>
             <div class="timeline-item left">
                 <div class="content">
+                    <MotionUp>
                     <h3>Uvodni razgovor</h3>
                     <p>Sve počinje s vama. Upoznajemo vašu priču, ciljeve i publiku kroz kratki brief ili sastanak.</p>
-                </div>
-                <div class="circle">1</div>
+                </MotionUp>
+            </div>
+                <div class="circle"><MotionUp>1</MotionUp></div>
             </div>
 
             <div class="timeline-item right">
-                <div class="circle">2</div>
+                <div class="circle"><MotionUp>2</MotionUp></div>
                 <div class="content">
-                    <h3>Analiza tržišta i potreba</h3>
-                    <p>Zaranjamo u podatke i istraživanje tržišta kako bismo razumjeli vaše okruženje, konkurenciju i
-                        prilike.</p>
+                    <MotionUp><h3>Analiza tržišta i potreba</h3></MotionUp>
+                    <MotionUp><p>Zaranjamo u podatke i istraživanje tržišta kako bismo razumjeli vaše okruženje, konkurenciju i
+                        prilike.</p></MotionUp>
                 </div>
             </div>
 
             <div class="timeline-item left">
                 <div class="content">
-                    <h3>Razrada strategije i koncepta</h3>
-                    <p>Na temelju analize gradimo jasnu i prilagođenu strategiju koja vodi prema vašim ciljevima – bez
-                        šablona.</p>
+                    <MotionUp><h3>Razrada strategije i koncepta</h3></MotionUp>
+                    <MotionUp><p>Na temelju analize gradimo jasnu i prilagođenu strategiju koja vodi prema vašim ciljevima – bez
+                        šablona.</p></MotionUp>
                 </div>
-                <div class="circle">3</div>
+                <div class="circle"><MotionUp>3</MotionUp></div>
             </div>
 
             <div class="timeline-item right">
                 <div class="circle">4</div>
                 <div class="content">
-                    <h3>Izvedba i realizacija</h3>
-                    <p>Ideje prenosimo u akciju. Pokrećemo kampanje, izrađujemo sadržaje i aktiviramo oglašavanje –
+                    <MotionUp><h3>Izvedba i realizacija</h3></MotionUp>
+                    <MotionUp><p>Ideje prenosimo u akciju. Pokrećemo kampanje, izrađujemo sadržaje i aktiviramo oglašavanje –
                         online
-                        ili offline.</p>
+                        ili offline.</p></MotionUp>
                 </div>
             </div>
 
             <div class="timeline-item left">
                 <div class="content">
-                    <h3>Praćenje i izvještavanje</h3>
-                    <p>Pratimo performanse u stvarnom vremenu, optimiziramo kad treba i redovno vam šaljemo jasne i
-                        razumljive izvještaje.</p>
+                    <MotionUp><h3>Praćenje i izvještavanje</h3></MotionUp>
+                    <MotionUp><p>Pratimo performanse u stvarnom vremenu, optimiziramo kad treba i redovno vam šaljemo jasne i
+                        razumljive izvještaje.</p></MotionUp>
                 </div>
-                <div class="circle">5</div>
+                <div class="circle"><MotionUp>5</MotionUp></div>
             </div>
 
         </div>
     </div>
 
 </template>
+
+<script setup>
+
+
+</script>
 
 <style scoped>
 /* HERO*/
