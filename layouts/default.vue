@@ -6,29 +6,30 @@
         </div>
   
         <ul class="nav-bar-links">
-          <li>USLUGE</li>
-          <li>BILLBOARDS</li>
-          <li>O NAMA</li>
-          <li>BLOG</li>
+          <li>Usluge</li>
+          <!-- <li>Billboards</li>-->
+          <li>Blog</li>
+          <li>O nama</li>
         </ul>
   
         <div class="cta">
-          <Button>Kontaktiraj nas</Button>
+          <Button>Javi se!</Button>
         </div>
       </div>
+
+      <slot />
+
+
     </div>
   </template>
   
   <style scoped>
-  .layout-wrapper {
-    margin: 40px 100px;
-  }
-  
   .nav-bar {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
     position: relative;
+    margin: 40px 100px;
   }
   
   .logo {
