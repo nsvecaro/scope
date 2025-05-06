@@ -1,9 +1,8 @@
 <template>
-
     <div class="hero">
             <div class="text">
             <h1>Vaš oglas</h1>
-            <h1>u pravo vrijeme.</h1>
+            <HeadlineAnimation><h1></h1></HeadlineAnimation>
         
             <h2 class="subtext">Na ulici ili online - pomažemo Vam biti viđeni i zapamćeni</h2>
         </div>
@@ -16,7 +15,7 @@
             <h2 class="sec-title">ZAŠTO ODABRATI SCOPE?</h2>
         </MotionUp>
         <MotionUp>
-            <h3 class="main-title">Jednostavan početak,<br>briljantni rezultati</h3>
+            <h3 class="main-title" id="gradient-title">Jednostavan početak,<br>briljantni rezultati</h3>
         </MotionUp>
         <MotionUp>
             <h2 class="paragraph">Scope je digitalna marketing agencija koja se specijalizira za<br>web razvoj,
@@ -152,7 +151,6 @@
 
 <script setup>
 
-
 </script>
 
 <style scoped>
@@ -162,9 +160,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     color: #e8e9e3;
-    height: 100vh;
+    height: 85vh;
 }
 
 .text {
@@ -196,7 +193,7 @@
     color: #202020;
     flex-direction: column;
     align-items: left;
-    padding: 100px;
+    padding: 100px 300px;
 
 }
 
@@ -213,7 +210,12 @@
     margin-bottom: 40px;
     font-size: 4rem;
     font-weight: 600;
+}
 
+#gradient-title{
+    background: linear-gradient(145deg, #B22222, #578cff);
+    background-clip: text;
+    color: transparent;
 }
 
 .paragraph {
@@ -227,7 +229,7 @@
     justify-content: space-between;
     gap: 40px;
     margin-top: 80px;
-    padding: 0 20px;
+    padding: 0 150px;
     flex-wrap: wrap;
 }
 
@@ -260,7 +262,7 @@
 
 
 .services {
-    padding: 100px;
+    padding: 100px 300px;
     display: flex;
     width: 100%;
     height: 100vh;
@@ -270,7 +272,7 @@
 
 .cards {
     display: flex;
-    gap: 5px;
+    gap: 8px;
     justify-content: center;
 }
 
@@ -284,7 +286,7 @@
 }
 
 .process{
-    padding: 100px;
+    padding: 100px 300px;
 }
 
 

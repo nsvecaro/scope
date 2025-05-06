@@ -22,11 +22,16 @@ defineProps({
     width: 300px;
     height: 400px;
     padding: 50px 20px;
-    background-color: #f6f6f611;
+    background: linear-gradient(135deg, #202020aa, #303030aa, #202020aa);
     border-radius: 15px;
     color: #e8e9e3;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     border: 1px solid #ffffff2b;
+    backdrop-filter: blur(10px);
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .card-title {
